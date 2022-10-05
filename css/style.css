@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Michroma", sans-serif;
+}
+
+header {
+  display: flex;
+  min-height: 80px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+img {
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  padding-right: 15px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.contenedor1, .contenedor2, .contenedor4, .contenedor5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: black;
+}
+
+.item1, .item2, .item8, .item9 {
+  border: 5px solid white;
+  justify-content: center;
+  text-align: center;
+  height: 340px;
+}
+
+.item1 img, .item4 img, .item8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.item2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.item2 p {
+  padding: 15px;
+}
+
+.item3, .item4 {
+  border: 5px solid white;
+  justify-content: center;
+  text-align: center;
+  height: 340px;
+}
+
+.item3 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.item5 {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.item6, .item9 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border: 5px solid white;
+}
+
+.item7 {
+  border: 5px solid white;
+  justify-content: center;
+  text-align: center;
+}
+
+.item7 video {
+  width: 100%;
+  height: 100%;
+}
+
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: 500px;
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  margin-top: 15px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-group .card1 {
+  border-radius: 5px;
+  border: 3px aliceblue solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: darkblue;
+}
+
+.card-group .card2 {
+  border-radius: 5px;
+  border: 3px aliceblue solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: darkblue;
+}
+
+.card-group img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card-group .card3 {
+  border-radius: 5px;
+  border: 3px aliceblue solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: darkblue;
+}
+
+.card-group-used {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: auto;
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  margin-top: 15px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-group-used .card {
+  border-radius: 5px;
+  border: 3px aliceblue solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2d3436;
+}
+
+.card-group-used .img1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card-group-used .textcard {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+
+.contenedor8 {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle at 78.4% 30.12%, #c179ff 0, #8c5bff 25%, #3c3cf2 50%, #0023d9 75%, #0019c4 100%);
+  background-size: cover;
+}
+
+.cuadro-contacto {
+  width: 600px;
+  height: 750px;
+  margin: 0;
+  border: 3px solid black;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: white;
+}
+
+button {
+  background-color: blue;
+  width: 100%;
+  height: 30px;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  border-top: black solid 3px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.titulo {
+  margin-bottom: 15px;
+}
+
+.coment {
+  border-top: black solid 3px;
+  margin-top: 10px;
+}
+
+.card:hover {
+  transform: translateY(-3%);
+  box-shadow: 5px 5px 20px rgba(208, 204, 238, 0.5);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */
